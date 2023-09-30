@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right, #9c4ecd, #2260bc);
+    background-image: linear-gradient(to right, #d0ce3e, #bc8122);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,11 +15,11 @@ body {
 
 .calculator {
     width: 300px;
-    background-color: white;
-    border: 1px solid #ccc;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ input[type="text"] {
     font-size: 24px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #9c4ecd;
+    border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
